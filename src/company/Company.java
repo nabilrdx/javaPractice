@@ -95,16 +95,11 @@ public class Company {
         System.out.println("All Employee details:::");
         System.out.println("--------------------------");
 
-        emp1.printEmpDetails();
-        emp2.printEmpDetails();
-        emp3.printEmpDetails();
-        emp4.printEmpDetails();
-        emp5.printEmpDetails();
-        emp6.printEmpDetails();
-        emp7.printEmpDetails();
-        emp8.printEmpDetails();
-        emp9.printEmpDetails();
-        emp10.printEmpDetails();
+        Employee emp[] = {emp1, emp2, emp3, emp4, emp5, emp6, emp7, emp8, emp9, emp10};
+        
+        for(int i=0; i<emp.length; i++) {
+        	emp[i].printEmpDetails();
+        }
         
        
     }

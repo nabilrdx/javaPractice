@@ -73,9 +73,8 @@ public class Employee {
         System.out.println("-----------------------------");
     }
     
-    
-    
     public static void main(String[] args) {
     	System.out.println("Hi from employee class!");
     }
+   
 }
